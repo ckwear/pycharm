@@ -1,8 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="jetbrain_setting" type="AUTO_DETECTED" />
-      <mapping ext="graphqlconfig" type="JSON" />
+      <mapping ext="dev" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
