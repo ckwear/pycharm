@@ -1,0 +1,12 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="71e91682-972f-4486-a8c8-332284ad182d" name="markcha@121.152.105.165:22:22 password" url="http://121.152.105.165">
+        <fileTransfer rootFolder="/home/markcha/pycharm" accessType="SFTP" host="121.152.105.165" port="22" sshConfigId="a4b4bfe5-1a3c-4b36-8629-9236dfe1309c" sshConfig="markcha@121.152.105.165:22:22 password" />
+      </webServer>
+      <webServer id="40e5db57-e380-434c-85fa-b1be2f9322c7" name="markcha@121.152.105.165:22" url="http:///">
+        <fileTransfer accessType="SFTP" host="121.152.105.165" port="22" sshConfigId="4e91c33e-26c2-44e2-ab09-7018a18acaff" sshConfig="markcha@121.152.105.165:22 password" />
+      </webServer>
+    </option>
+  </component>
+</application>
