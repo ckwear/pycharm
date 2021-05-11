@@ -7,8 +7,8 @@
       <webServer id="40e5db57-e380-434c-85fa-b1be2f9322c7" name="markcha@121.152.105.165:22" url="http:///">
         <fileTransfer accessType="SFTP" host="121.152.105.165" port="22" sshConfigId="4e91c33e-26c2-44e2-ab09-7018a18acaff" sshConfig="markcha@121.152.105.165:22 password" />
       </webServer>
-      <webServer id="9a6b18b9-b1f9-4bd2-9345-82a400a3287a" name="vetec@112.216.32.6:33" url="http:///">
-        <fileTransfer accessType="SFTP" host="112.216.32.6" port="33" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" authAgent="true" />
+      <webServer id="9a6b18b9-b1f9-4bd2-9345-82a400a3287a" name="vetec@112.216.32.6:33" url="">
+        <fileTransfer rootFolder="/home/vetec/pythonDir" accessType="SFTP" host="112.216.32.6" port="33" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" authAgent="true" />
       </webServer>
     </option>
   </component>
