@@ -16,6 +16,9 @@
       <webServer id="46947952-5a03-4257-98e7-ac25d640dcc7" name="vetec@112.216.32.6:33 agent">
         <fileTransfer accessType="SFTP" host="112.216.32.6" port="33" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" authAgent="true" />
       </webServer>
+      <webServer id="880569c0-6b16-4e84-af43-a2b2c173059a" name="vetec@112.216.32.6:33 agent">
+        <fileTransfer accessType="SFTP" host="112.216.32.6" port="33" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" authAgent="true" />
+      </webServer>
     </option>
   </component>
 </application>
