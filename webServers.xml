@@ -10,6 +10,9 @@
       <webServer id="9a6b18b9-b1f9-4bd2-9345-82a400a3287a" name="vetec@112.216.32.6:33" url="">
         <fileTransfer rootFolder="/home/vetec/pythonDir" accessType="SFTP" host="112.216.32.6" port="33" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" authAgent="true" />
       </webServer>
+      <webServer id="06ffb357-f001-4382-bf42-b94841a95026" name="vetec@112.216.32.6:33 agent">
+        <fileTransfer accessType="SFTP" host="112.216.32.6" port="33" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" authAgent="true" />
+      </webServer>
     </option>
   </component>
 </application>
