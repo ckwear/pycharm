@@ -1,20 +1,21 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="71e91682-972f-4486-a8c8-332284ad182d" name="markcha@121.152.105.165:22:22 password" url="http://121.152.105.165">
-        <fileTransfer rootFolder="/home/markcha/pycharm" accessType="SFTP" host="121.152.105.165" port="22" sshConfigId="a4b4bfe5-1a3c-4b36-8629-9236dfe1309c" sshConfig="markcha@121.152.105.165:22:22 password" />
-      </webServer>
-      <webServer id="40e5db57-e380-434c-85fa-b1be2f9322c7" name="markcha@121.152.105.165:22" url="http:///">
-        <fileTransfer accessType="SFTP" host="121.152.105.165" port="22" sshConfigId="4e91c33e-26c2-44e2-ab09-7018a18acaff" sshConfig="markcha@121.152.105.165:22 password" />
-      </webServer>
       <webServer id="9a6b18b9-b1f9-4bd2-9345-82a400a3287a" name="vetec@112.216.32.6:33" url="">
-        <fileTransfer rootFolder="/home/vetec/pythonDir" accessType="SFTP" host="112.216.32.6" port="33" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" authAgent="true" />
+        <fileTransfer rootFolder="/home/vetec/pythonDir/" accessType="SFTP" host="112.216.32.6" port="33" sshConfigId="0c9d9a1f-d21d-4102-bac5-950126b23fe8" sshConfig="vetec_ssh" authAgent="true">
+          <advancedOptions>
+            <advancedOptions keepAliveTimeout="0" />
+          </advancedOptions>
+        </fileTransfer>
       </webServer>
       <webServer id="06ffb357-f001-4382-bf42-b94841a95026" name="vetec@112.216.32.6:33 agent">
-        <fileTransfer accessType="SFTP" host="112.216.32.6" port="33" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" authAgent="true" />
+        <fileTransfer accessType="SFTP" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" />
       </webServer>
-      <webServer id="46947952-5a03-4257-98e7-ac25d640dcc7" name="vetec@112.216.32.6:33 agent">
-        <fileTransfer accessType="SFTP" host="112.216.32.6" port="33" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" authAgent="true" />
+      <webServer id="46947952-5a03-4257-98e7-ac25d640dcc7" name="vetec@112.216.32.6:33 agent (1)">
+        <fileTransfer accessType="SFTP" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" />
+      </webServer>
+      <webServer id="880569c0-6b16-4e84-af43-a2b2c173059a" name="vetec@112.216.32.6:33 agent (2)">
+        <fileTransfer accessType="SFTP" sshConfigId="c4a4cf69-e72a-44d9-b90a-63bf231e6ba2" sshConfig="vetec@112.216.32.6:33 agent" />
       </webServer>
     </option>
   </component>
